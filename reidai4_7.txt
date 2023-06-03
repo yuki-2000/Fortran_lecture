@@ -1,0 +1,23 @@
+program reidai4_7
+
+real, demension(10,10) :: a
+real,dimension(10) :: b,c
+real :: d
+integer :: k,l,m,n
+
+write(*,*)'mxnçsóÒÇ≈Ç∑ÅBm=,n='
+read(*,*) m,n
+
+do k=1,m
+read(*,*) (a(k,l)l=1,n)
+end do
+b=sum(a,dim=2)
+c=sum(a,dim=1)
+d=sum(a)
+write(*,*)
+
+
+
+
+
+

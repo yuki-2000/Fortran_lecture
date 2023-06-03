@@ -1,0 +1,18 @@
+program reidai5_4
+implicit none
+
+integer,dimension :: x(11000)
+integer :: i,j,k
+
+read(*,*) n
+do i=1,n
+write(*,*)'x',i
+read(*,*) x(i)
+
+do i=1,n
+if
+
+
+
+
+
